@@ -22,11 +22,6 @@ dump.rdb
 data_script/
 watermark/
 .*/
-aws/
-
-# images
-project/member/photo/
-project/service/photo/
 
 ### gitignore.io ###
 
