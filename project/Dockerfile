@@ -22,11 +22,6 @@ RUN apk add --no-cache \
     gcc \
     freetds-dev
 
-# required, Pillow
-RUN apk add --no-cache \
-    jpeg-dev \
-    zlib-dev
-
 # copy project
 COPY . /usr/src/app/
 
