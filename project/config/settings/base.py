@@ -22,9 +22,6 @@ SECRET_KEY = config('SECRET_KEY')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# todo
-# AUTH_USER_MODEL = 'member.User'
-
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',

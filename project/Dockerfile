@@ -28,7 +28,6 @@ COPY . /usr/src/app/
 # install dependencies
 # docker-compose 에서 설정한 DJANGO_CONFIGURATION 값을 사용
 RUN pip install --upgrade pip
-# COPY ./config/requirements /usr/src/app/config/requirements
 RUN pip install --no-cache-dir -r /usr/src/app/config/requirements/${DJANGO_CONFIGURATION}.txt
 
 # copy entrypoint.sh

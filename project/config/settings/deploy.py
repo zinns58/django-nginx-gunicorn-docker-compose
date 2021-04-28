@@ -18,6 +18,7 @@ DATABASES = {
     }
 }
 
+# remote Database
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
